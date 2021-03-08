@@ -1,0 +1,51 @@
+.footer-container {
+    background-color: #111f64;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.contenedor-logo-texto{
+    width: 20%;
+    text-align: center;
+}
+.smart-blanca{
+    width:180px;
+}
+.contenedor-politicas ul li {
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    padding-top:20px;
+
+}
+
+.contenedor-redes{
+    text-align: center;
+}
+.foot-links{
+    text-decoration: none;
+    color:#fff;
+}
+h5{
+    font-size: 30px;
+    color:#fff;
+}
+i.fab{
+   font-size: 50px;
+   color:#fff;
+}
+.texto-foot{
+    color:#fff;
+}
+
+@media screen and (max-width: 960px){
+    .footer-container{
+        flex-direction: column;
+    }
+    .contenedor-logo-texto{
+        width: 100%;
+        text-align: center;
+        padding:50px;
+    }
+}
